@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "openaix"
+version = "0.1.0"
+description = ""
+authors = ["mrkvn <52745562+mrkvn@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
