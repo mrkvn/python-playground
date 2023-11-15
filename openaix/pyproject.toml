@@ -7,8 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+openai = "^1.2.4"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "openaix.main:main"
